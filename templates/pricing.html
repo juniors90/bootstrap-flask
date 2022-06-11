@@ -1,7 +1,7 @@
 {% extends "_base.html"%}
 {% block head %}
 {{ super() }}
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+<link rel="stylesheet" href="{{ url_for('static', filename='pricing.css')}}">
 {% endblock %}
 
 {% block content %}
@@ -9,5 +9,5 @@
         {% include '_navbar.html'%}
     {# ------ End Navbar ------ #}
 
-    <h1>Hola mundo sin boostrap</h1>
+    <h1>Pricing Page</h1>
 {% endblock %}
